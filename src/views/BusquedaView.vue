@@ -75,7 +75,7 @@ export default {
     },
     cerrarSesion () {
       auth.deleteUserLogged()
-      location.reload()
+      // location.reload()
       this.$router.go(0)
     }
   },
